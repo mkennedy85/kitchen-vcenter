@@ -188,16 +188,16 @@ platforms:
       poweron: true
       vm_name: centos-7-kitchen
       guest_customization:
-        ipAddress: 10.10.176.15
+        ip_address: 10.10.176.15
         gateway:
         - 17.10.176.1
-        subnetMask: 255.255.252.0
-        dnsDomain: 'example.com'
+        subnet_mask: 255.255.252.0
+        dns_domain: 'example.com'
         timezone: 'US/Pacific'
-        dnsServerList:
+        dns_server_list:
         - 8.8.8.8
         - 7.7.7.7
-        dnsSuffixList:
+        dns_suffix_list:
         - 'test.example.com'
         - 'example.com'
     transport:
